@@ -10,5 +10,5 @@ An interactive command-line application that uses user input to formulate a cust
 - Throughout the development of this application, I had the opportunitiy to further my understanding of class constructors and their utilization in extending functionality into child functions.
 
 ## Usage 
-Input 'npm i' install all of the needed dependencies, then run 'node index' to begin the prompts
-Run 'npm test' to run jest 
+Input 'npm i' install all of the needed dependencies, then run 'node index' to begin the prompts. Run 'npm test' to run jest 
+https://drive.google.com/file/d/1UYoHtZPj6QZZd9cAEVj36KVMJNVOl6CZ/view
