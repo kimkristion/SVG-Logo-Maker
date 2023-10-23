@@ -8,12 +8,24 @@ const script = [
     {
         type: 'input',
         name: 'text',
-        message: 'Please enter 3 characters:'
+        message: 'Please enter up to 3 characters:',
+        validate: function (input) {
+            if (input.length > 3 || input.length === 0) {
+                return 'Input must be up to 3 characters.';
+            }
+            return true;
+        }
     },
     {
         type: 'input',
         name: 'textColor',
-        message: 'Enter color for text (keyword or hexidecimal):'
+        message: 'Enter color for text (keyword or hexidecimal):',
+        validate: function (input) {
+            if (input.length === 0) {
+                return 'Input cannot be null'
+            }
+            return true;
+        }
     },
     {
         type: 'list',
@@ -24,7 +36,13 @@ const script = [
     {
         type: 'input',
         name: 'shapeColor',
-        message: 'Enter color for shape (keyword or hexidecimal):'
+        message: 'Enter color for shape (keyword or hexidecimal):',
+        validate: function (input) {
+            if (input.length === 0) {
+                return 'Input cannot be null'
+            }
+            return true;
+        }
     }
 ];
 
