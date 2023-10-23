@@ -11,3 +11,4 @@ An interactive command-line application that uses user input to formulate a cust
 
 ## Usage 
 Input 'npm i' install all of the needed dependencies, then run 'node index' to begin the prompts
+Run 'npm test' to run jest 
